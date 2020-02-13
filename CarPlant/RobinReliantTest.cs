@@ -11,7 +11,7 @@ namespace CarPlant
         public void Init()
         {
             CarPlant.LOG = "";
-            _robinReliant = CarPlant.makeRobinReliant();
+            _robinReliant = CarPlant.MakeRobinReliant();
         }
 
         [TestMethod]

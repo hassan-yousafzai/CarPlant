@@ -13,7 +13,7 @@ namespace CarPlant
 		public void Init()
 		{
 			CarPlant.LOG = "";
-			_corolla = CarPlant.makeToyotaCorolla();
+			_corolla = CarPlant.MakeToyotaCorolla();
         }
 
 		[TestMethod]

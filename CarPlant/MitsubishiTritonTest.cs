@@ -12,7 +12,7 @@ namespace CarPlant
 		public void Init()
 		{
 			CarPlant.LOG = "";
-			triton = CarPlant.makeMitsubishiTriton();
+			triton = CarPlant.MakeMitsubishiTriton();
 		}
 
 		[TestMethod]

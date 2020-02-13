@@ -12,7 +12,7 @@ namespace CarPlant
 		public void Init()
 		{
 			CarPlant.LOG = "";
-			buggy = CarPlant.makeSandBuggy();
+			buggy = CarPlant.MakeSandBuggy();
 		}
 
 		[TestMethod]
